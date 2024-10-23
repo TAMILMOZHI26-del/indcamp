@@ -1,0 +1,27 @@
+.stats {
+    display: flex;
+    justify-content: space-around;
+    background-color: #ffffff;
+    padding: 40px 20px;
+}
+
+.stat-item {
+    text-align: center;
+    background-color: #004643;
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 150px;
+}
+
+.stat-item h2 {
+    font-size: 36px;
+    margin: 0;
+    color: #f1f0e8; /* Yellow accent color */
+}
+
+.stat-item p {
+    font-size: 16px;
+    margin-top: 10px;
+    color: #e5e5e5; /* Light text color */
+}
