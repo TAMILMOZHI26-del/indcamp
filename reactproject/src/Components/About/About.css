@@ -1,0 +1,55 @@
+.about-us {
+    text-align: center;
+    padding: 30px;
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .about-us h2 {
+    font-size: 2.4rem;
+    color: #0b7dff;
+    margin-bottom: 20px;
+  }
+  
+  .about-us p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .about-us {
+      padding: 20px; /* Reduce padding for smaller screens */
+      margin: 10px auto; /* Adjust margin for better spacing */
+    }
+  
+    .about-us h2 {
+      font-size: 2rem; /* Adjust heading size for smaller screens */
+    }
+  
+    .about-us p {
+      font-size: 1rem; /* Adjust paragraph size for smaller screens */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .about-us {
+      padding: 15px; /* Further reduce padding for very small screens */
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Lighter shadow for smaller screens */
+    }
+  
+    .about-us h2 {
+      font-size: 1.8rem; /* Smaller heading for compact screens */
+    }
+  
+    .about-us p {
+      font-size: 0.9rem; /* Compact text size */
+      line-height: 1.4; /* Adjust line spacing for better fit */
+    }
+  }
+  
